@@ -1,2 +1,2 @@
 #!/bin/bash
-gss $CFILE -E -o c
+gss -E $CFILE -o c
