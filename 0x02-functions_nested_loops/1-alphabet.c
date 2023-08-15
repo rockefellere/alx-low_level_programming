@@ -2,8 +2,8 @@
 #include <unistd.h>
 
 /**
- * print_alphabet - Entry point
- * Return:0
+ * print_alphabet - print_alphabets
+ *
  */
 
 void print_alphabet(void)
@@ -13,7 +13,7 @@ void print_alphabet(void)
 	al = 'a';
 	while (al <= 'z')
 	{
-		_putchar(c);
+		_putchar(al);
 		al++;
 
 	}
