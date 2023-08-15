@@ -1,17 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - Entry point
+ * main - print _putchar
  *
- * Return: Always 0 (success)
+ * Return: (0)
+ * 
  */
-
 int main(void)
 {
+	int i;
+	char c[] = "_putchar";
 
-printf("_putchar\n");
+	for (i = 0; i <= 7; i++)
+	{
+		putchar(c[i]);
+	}
+	putchar('\n');
 
-return (0);
+	return (0);
 }
 
