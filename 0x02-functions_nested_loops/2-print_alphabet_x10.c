@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - print alphabets x10
+ * print_alphabet_x10 - prints alphabets x10
  *
  * Description: using _putchar to print
  *
