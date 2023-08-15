@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Functions, nested loops
 		
 
@@ -60,3 +61,6 @@ All of the following files are programs written in C:
 		
 | `104-fibonacci.c` | Finds and prints the first 98 Fibonacci numbers |
 
+=======
+0x02-functions_nested_loops
+>>>>>>> a52482a05d3c2f9ba2a516f53c25665f4c6e0149
