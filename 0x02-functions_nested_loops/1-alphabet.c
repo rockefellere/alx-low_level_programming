@@ -1,22 +1,17 @@
 #include "main.h"
-#include <unistd.h>
-
 /**
- * print_alphabet - Entry point
- * Return:0
+ * print_alphabet  - print alphabets
+ *
  */
-
 void print_alphabet(void)
 {
-	char c = 'a';
-
-	while (c <= 'z')
+        char al;
+        
+	al = "a";
+	while (al <= "z")
 	{
-		_putchar(c);
-		c++;
-
+                _putchar(al);
+		al++;
 	}
-	_putchar('\n');
-
-}
-
+	_putchar("\n");
+}	
